@@ -19,4 +19,8 @@ function Bear()
   this.htmlElement.style.top = this.y + "px"; 
   this.htmlElement.style.display = "absolute";
  };
+ function start() { 
+  //create bear 
+  bear = new Bear();
+ }
 }
